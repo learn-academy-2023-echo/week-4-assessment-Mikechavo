@@ -64,7 +64,7 @@ palindrome_test_case3 = 'Rotator'
 # create a method that returns a string stating while or not the string is a palindrome or not.
 # we will need to use the .downcase method to ensure letter are of the same case
 # we will need to use the .reverse method to ensure the letter are flipped
-# we will need to create an if/else method to return the desired string
+# we will need to create an if/else method to return the desired string.
 
 def palindrome_or_not str
   if str.downcase == str.downcase.reverse

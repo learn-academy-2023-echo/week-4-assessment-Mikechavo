@@ -24,7 +24,7 @@ Your answer: a return without the need of a 'return'
 
 Researched answer: No need for the return keyword if return is the last expresssion in the execution.
 
-4. What is a block in Ruby?
+4. What is a block in Ruby?.
 
 Your answer: Object containing code
 

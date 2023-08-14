@@ -29,7 +29,7 @@ describe("removalReplace", () => {
       "aquamarine",
       "saffron"
     ]
-    // Expected output example (can be a different order): ["saffron", "aquamarine", "periwinkle", "indigo", "ochre"]
+    // Expected output example (can be a different order): ["saffron", "aquamarine", "periwinkle", "indigo", "ochre"]..
 
     expect(removalReplace(colors1)).toEqual(expect.arrayContaining(["yellow", "blue", "pink", "green"]))
     expect(removalReplace(colors2)).toEqual(expect.arrayContaining(["saffron", "aquamarine", "periwinkle", "indigo", "ochre"]))
